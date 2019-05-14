@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/date_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="date_textView" />
+
+    <TextView
+        android:id="@+id/note_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_textView"
+        android:gravity="left"
+        android:text="note_textView"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:src="@mipmap/remove"
+        android:layout_centerInParent="true"
+        android:id="@+id/remove_btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
